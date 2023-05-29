@@ -45,7 +45,7 @@ namespace AppRpgEtec.ViewModels.Personagens
         {
             try
             {
-                await Shell.Current.GoToAsync("CadastroPersonagemView");
+                await Shell.Current.GoToAsync("cadPersonagemView");
             }
             catch (Exception ex)
             {

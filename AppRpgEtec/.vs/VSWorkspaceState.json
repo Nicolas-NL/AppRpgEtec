@@ -2,8 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\Models",
-    "\\Platforms",
-    "\\Platforms\\Android",
+    "\\Models\\Enuns",
     "\\Service",
     "\\Service\\Personagens",
     "\\ViewModels",
@@ -11,6 +10,5 @@
     "\\Views",
     "\\Views\\Personagens"
   ],
-  "SelectedNode": "\\AppRpgEtec.sln",
   "PreviewInSolutionExplorer": false
 }

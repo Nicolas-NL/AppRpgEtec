@@ -90,6 +90,10 @@
               "version": "[7.0.52, )",
               "autoReferenced": true
             },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -212,6 +216,10 @@
               "version": "[7.0.52, )",
               "autoReferenced": true
             },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"
@@ -278,6 +286,10 @@
               "target": "Package",
               "version": "[7.0.52, )",
               "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -362,6 +374,10 @@
               "target": "Package",
               "version": "[1.2.221109.1, )",
               "autoReferenced": true
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.19.2, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",

@@ -7,6 +7,11 @@
     <Shell.TitleView>
         <Button Command="{Binding NovoPersonagem}" Text="Novo" HorizontalOptions="End"></Button>
     </Shell.TitleView>
+    <ScrollView>
+        
+        
+        
+    
     <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
         <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Personagens}" >
             <ListView.ItemTemplate>
@@ -21,4 +26,5 @@
             </ListView.ItemTemplate>
         </ListView>
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

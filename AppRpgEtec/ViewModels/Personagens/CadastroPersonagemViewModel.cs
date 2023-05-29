@@ -11,7 +11,7 @@ using AppRpgEtec.Models.Enuns;
 
 namespace AppRpgEtec.ViewModels.Personagens
 {
-    internal class CadastroPersonagemViewModel
+    internal class CadastroPersonagemViewModel : BaseViewModel
     {
 
         private PersonagemService pService;
@@ -55,10 +55,7 @@ namespace AppRpgEtec.ViewModels.Personagens
             }
         }
 
-        private void OnPropertyChanged()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public string Nome
         {
@@ -155,6 +152,11 @@ namespace AppRpgEtec.ViewModels.Personagens
             }
         }
 
+       
+
+
+
+
         public async Task ObterClasses()
         {
             try
@@ -171,6 +173,8 @@ namespace AppRpgEtec.ViewModels.Personagens
                     .DisplayAlert("Ops", ex.Message + " Detalhes: " + ex.InnerException, "Ok");
             }
         }
+
+
 
         private TipoClasse tipoClasseSelecionado;
         public TipoClasse TipoClasseSelecionado
