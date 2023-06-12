@@ -43,9 +43,9 @@ namespace AppRpgEtec.Service
             HttpResponseMessage response = await httpClient.PostAsync(uri, content);
             string serialized = await response.Content.ReadAsStringAsync();
             if (response.StatusCode == System.Net.HttpStatusCode.OK)
-                return 1;
+                return int.Parse(serialized);
             else
-                return 0;
+                throw new Exception(serialized);
         }
 
         public async Task<int> PutAsync<TResult>(string uri, TResult data, string token)
